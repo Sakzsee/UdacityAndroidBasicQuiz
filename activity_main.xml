@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.android.intelliginator.MainActivity">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/spacepic" />
+
+    <Button
+        android:id="@+id/answer4"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/answer3"
+        android:layout_alignEnd="@+id/answer3"
+        android:layout_alignRight="@+id/answer3"
+        android:layout_marginBottom="24dp"
+        android:background="#000"
+        android:gravity="center"
+        android:text="Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/answer3"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/answer2"
+        android:layout_alignLeft="@+id/answer1"
+        android:layout_alignStart="@+id/answer1"
+        android:layout_marginBottom="13dp"
+        android:background="#000"
+        android:gravity="center"
+        android:text="Button"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/answer2"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/answer1"
+        android:layout_alignEnd="@+id/answer1"
+        android:layout_alignRight="@+id/answer1"
+        android:layout_marginBottom="13dp"
+        android:background="#000"
+        android:gravity="center"
+        android:text="Button"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/answer1"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#000"
+        android:gravity="center"
+        android:text="Button"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+
+        />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="350dp"
+        android:layout_height="137dp"
+        android:layout_above="@+id/answer4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/question"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="Welcome to the Intelliginator- Space Quiz!" />
+
+
+</android.widget.RelativeLayout>
